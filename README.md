@@ -5,7 +5,7 @@
    It consists of:
  -  Custom data management command-line interface
  -  Base classes for storage of the data
-   
+
  ## **Usage**
   The console can be used in both ineractive and non-interactive modes like a Unix shell which prints a prompt (hbnb) that waits for user input.
 *  run the console  `./console`
@@ -17,8 +17,9 @@
 *  Show all objects or instances of class `(hbnb) all`
 *  Update attribute of object `(hbnb) update <class> <id> <attribute name> "<attribute value>"`
 
-  An example of interactive mode:
-  $ ./console.py
+An example of interactive mode
+```
+$ ./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -29,14 +30,15 @@ EOF  help  quit
 (hbnb)
 (hbnb) quit
 $
+```
 
 An example of non-interactive mode:
+```
 $ echo "help" | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
 ========================================
-```
 EOF  help  quit
 (hbnb)
 $
@@ -45,16 +47,13 @@ help
 $
 $ cat test_help | ./console.py
 (hbnb)
-```
 
 Documented commands (type help <topic>):
 ========================================
-```
 EOF  help  quit
 (hbnb)
 $
 ```
-
 ## **Testing**
 Testing of the ALX Airbnb clone project is accomplished using `Unittests` defined in the tests folder. Simultaneous testing of the entire suite is done using the following command:
 - $ `python3 unittest -m discover tests`
