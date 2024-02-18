@@ -1,4 +1,4 @@
-                 # **An AirBnB clone**
+#                  **An AirBnB clone**
 ##  **Description**
    ALX AirBnB clone is a full web application integrating a front-end interface known as the console, a back-end API and a database storage.
    It is a team project that is part of the ALX software Engineering Program representing the first step into building a complete web application.
@@ -36,6 +36,7 @@ $ echo "help" | ./console.py
 
 Documented commands (type help <topic>):
 ========================================
+```
 EOF  help  quit
 (hbnb)
 $
@@ -44,19 +45,22 @@ help
 $
 $ cat test_help | ./console.py
 (hbnb)
+```
 
 Documented commands (type help <topic>):
 ========================================
+```
 EOF  help  quit
 (hbnb)
 $
+```
 
 ## **Testing**
 Testing of the ALX Airbnb clone project is accomplished using `Unittests` defined in the tests folder. Simultaneous testing of the entire suite is done using the following command:
-$ `python3 unittest -m discover tests`
-Single testing of modules uses the following command:
-$ `python3 unittest -m tests/test_console.py`
+- $ `python3 unittest -m discover tests`
+- Single testing of modules uses the following command:
+- $ `python3 unittest -m tests/test_console.py`
 
 ## **Authors**:
-Elizabeth Motsinone <mahlatsemotsinone@gmail.com>
-Joshua Mutuse <joshmutuse@yahoo.com>
+- Elizabeth Motsinone <mahlatsemotsinone@gmail.com>
+- Joshua Mutuse <joshmutuse@yahoo.com>
